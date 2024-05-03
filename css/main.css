@@ -1,28 +1,4 @@
-.container{
-    max-width: 1230px;
-    margin: 0 auto;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-}
-
-.hero-section{
-    display: flex;
-    justify-content: space-between;
-}
-
-.tech-stack-section ul{
-    display: flex;
-    list-style-type: none;
-}
-
-.projects-section .inner{
-    display: flex;
-    justify-content: space-between;
-}
-
-.projects-section .inner article{
-    width: 30%;
-}
+@import "./reset.css";
+@import "./fonts.css";
+@import "./common.css";
+@import "./components/main.css";

@@ -1,0 +1,39 @@
+.some-company-card{
+    margin-top: 20px;
+}
+
+.some-company-card .list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.some-company-card .list .item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.some-company-card .list .item .time{
+    background-color: #D7FFE0;
+    color: #018C0F;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 15px;
+    height: 24px;
+    width: 100px;
+}
+
+.some-company-card .list .item .card-ico{
+    height: auto;
+    width: 25px;
+}
+
+.some-company-card .list .item .desc{
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.some-company-card hr{
+    color: #EBEAED;
+}

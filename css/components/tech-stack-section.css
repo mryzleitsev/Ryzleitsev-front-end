@@ -1,0 +1,10 @@
+.tech-stack-section .list .item img {
+    width: 6em;
+    height: auto;
+}
+
+.tech-stack-section ul{
+    display: flex;
+    justify-content: space-between;
+}
+
