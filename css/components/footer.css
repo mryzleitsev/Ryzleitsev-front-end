@@ -55,22 +55,22 @@ footer hr{
 
 @media screen and (max-width: 768px) {
     .footer {
-        padding-bottom: 50px; /* Уменьшаем отступ вниз для мобильных устройств */
+        padding-bottom: 50px;
     }
 
     .footer .info {
-        flex-direction: column; /* Располагаем информацию в столбец */
-        align-items: center; /* Выравниваем по центру */
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer .info .list {
-        width: auto; /* Автоматический размер для списка социальных медиа */
-        margin-bottom: 20px; /* Добавляем отступ между соц. медиа и навигацией */
+        width: auto;
+        margin-bottom: 20px;
     }
 
     .footer .nav ul {
-        flex-direction: column; /* Располагаем пункты меню в столбец */
-        align-items: center; /* Выравниваем по центру */
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer .nav .list .item {
