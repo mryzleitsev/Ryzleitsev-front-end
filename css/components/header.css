@@ -86,4 +86,7 @@ header{
     .header .nav .list .item:not(:last-child) {
         margin-bottom: 20px;
     }
+    .header .item{
+        text-align: center;
+    }
 }
