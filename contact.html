@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+<div class="overlay"></div>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/main.css">
     <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-
+scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 <div class="container">
@@ -47,35 +50,48 @@
                 </a>
             </li>
         </ul>
+        <button class="nav-btn">
+            <span class="nav-btn-line"></span>
+            <span class="nav-btn-line"></span>
+            <span class="nav-btn-line"></span>
+        </button>
     </header>
 
-    <section class="form">
-        <form action="">
-            <div>
+    <form action="" class="form">
+        <div class="form-row">
+            <div class="form-col">
                 <label for="name">Name:</label>
                 <input type="text" id="name">
             </div>
-            <div>
+            <div class="form-col">
                 <label for="email">Email:</label>
                 <input type="email" id="email">
             </div>
-            <div>
+        </div>
+        <div class="form-row">
+            <div class="form-col">
                 <label for="phone">Phone:</label>
                 <input type="text" id="phone">
             </div>
-            <div>
+            <div class="form-col">
                 <label for="fax">Fax:</label>
                 <input type="text" id="fax">
             </div>
-            <div>
+        </div>
+        <div class="form-row flex-end">
+            <div class="form-col">
                 <label for="description">Description:</label>
                 <textarea name="description" id="description" cols="30" rows="10">
 
 </textarea>
             </div>
-            <button type="submit">Send</button>
-        </form>
-    </section>
+        </div>
+        <div class="form-row flex-end cols-auto">
+            <div class="form-col">
+                <button class="button" type="button">Send</button>
+            </div>
+        </div>
+    </form>
 
     <footer class="footer">
         <div class="info">
@@ -121,5 +137,6 @@
         </nav>
     </footer>
 </div>
+<script src="js/main.js"></script>
 </body>
 </html>

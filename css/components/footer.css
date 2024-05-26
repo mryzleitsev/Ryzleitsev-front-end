@@ -52,3 +52,36 @@ footer .nav{
 footer hr{
     color: #EBEAED;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-bottom: 50px; /* Уменьшаем отступ вниз для мобильных устройств */
+    }
+
+    .footer .info {
+        flex-direction: column; /* Располагаем информацию в столбец */
+        align-items: center; /* Выравниваем по центру */
+    }
+
+    .footer .info .list {
+        width: auto; /* Автоматический размер для списка социальных медиа */
+        margin-bottom: 20px; /* Добавляем отступ между соц. медиа и навигацией */
+    }
+
+    .footer .nav ul {
+        flex-direction: column; /* Располагаем пункты меню в столбец */
+        align-items: center; /* Выравниваем по центру */
+    }
+
+    .footer .nav .list .item {
+        margin: 5px;
+        padding: 0;
+    }
+    .footer .element {
+        margin: 5px;
+        padding: 0;
+    }
+    .footer .element.list {
+        margin-top: 15px ;
+    }
+}
